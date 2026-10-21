@@ -53,21 +53,6 @@ Ambil screenshot halaman **Overview** dan detail test (steps + attachment), simp
 (mis. `allure_overview.png`, `allure_detail.png`). Ambil juga screenshot terminal yang menunjukkan
 test **passed** (mis. `terminal_test.png`).
 
-## 5. Push ke GitHub
-
-Buat repo kosong di GitHub, lalu:
-
-```bash
-git init
-git add .
-git commit -m "Add WebdriverIO login automation for BelajarBarengApps"
-git branch -M main
-git remote add origin https://github.com/USERNAME/BelajarBarengApps-Automation.git
-git push -u origin main
-```
-
-`.env`, `node_modules/`, dan APK sudah di-ignore, jadi kredensial tidak ikut ter-push.
-
 ## Struktur
 
 ```
