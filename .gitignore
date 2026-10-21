@@ -1,0 +1,8 @@
+node_modules/
+allure-results/
+allure-report/
+.env
+logs/
+app/*.apk
+submission/*.pdf
+evidence/debug_*
